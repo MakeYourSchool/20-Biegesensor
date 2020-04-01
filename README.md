@@ -4,6 +4,8 @@ Biegesensor
 
 <img src=https://www.makeyourschool.de/wp-content/uploads/2018/10/20_biegesensor-1024x1024.jpg width=400px>
 
+Bildquelle: *Wissenschaft im Dialog*
+
 Der Biegesensor ermöglicht es, Verbiegungen zu erkennen und deren Ausmaß zu bestimmen. Wird der Fühler des Sensors gebogen (Aufrollbewegung mit den Metallplättchen nach außen), ändert sich der elektrische Widerstand zwischen den Anschlusspins. Durch eine Widerstandsmessung kann folglich auf die Biegung des Fühlers geschlossen werden.
 
 Da ein Arduino nicht direkt eine Widerstandsänderung messen kann, wird hier eine Messverstärkerschaltung benötigt. Eine Möglichkeit bietet hierfür ein sogenannter Spannungsteiler, bei dem der Sensor in Reihe mit einem zweiten Widerstand zwischen Versorgungsspannung und Masse gelegt wird. Der Arduino kann schließlich die Widerstandsänderung als Spannungsänderung über einen analogen Pin erfassen.
@@ -24,4 +26,4 @@ Das Repository basiert grundlegend auf den veröffentlichten Informationen und C
 
 **Weitere Informationen:**
 
-[Materialkoffer von Make Your School](https://www.makeyourschool.de/material/biegesensor/)
+[Materialkoffer von *Make Your School*](https://www.makeyourschool.de/material/biegesensor/)
